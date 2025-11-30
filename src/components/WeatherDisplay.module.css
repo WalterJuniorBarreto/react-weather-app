@@ -1,0 +1,30 @@
+.weatherCard {
+  border-top: 1px solid #eee;
+  padding-top: 24px;
+}
+
+.weatherMain {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.temperature {
+  font-size: 3.5rem;
+  font-weight: 600;
+}
+
+.description {
+  font-size: 1.25rem;
+  color: #555;
+  text-transform: capitalize;
+  margin-top: -10px;
+}
+
+.weatherDetails {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  color: #666;
+}

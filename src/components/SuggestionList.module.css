@@ -1,0 +1,39 @@
+
+.suggestionsList {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  border: 1px solid #ddd;
+  border-top: none; 
+  border-radius: 0 0 8px 8px;
+  margin-top: -8px; 
+  background-color: #fff;
+  position: relative; 
+  z-index: 10;
+}
+
+.suggestionItem {
+  padding: 12px 16px;
+  cursor: pointer;
+  text-align: left;
+}
+
+.suggestionItem:hover {
+  background-color: #f0f2f5;
+}
+
+.suggestionItem:not(:last-child) {
+  border-bottom: 1px solid #eee;
+}
+
+.searching {
+  text-align: left;
+  padding: 12px 16px;
+  color: #888;
+  font-style: italic;
+  border: 1px solid #ddd;
+  border-top: none;
+  border-radius: 0 0 8px 8px;
+  margin-top: -8px;
+  background-color: #fff;
+}
